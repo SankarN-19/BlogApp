@@ -23,5 +23,5 @@ dbConnect();
 
 //default route
 app.get('/',(req, res) => {
-    res.send("<h1>Hello Its a Blog App</h1>");
+    res.send("<h1>This is my Blog App</h1>");
 })
